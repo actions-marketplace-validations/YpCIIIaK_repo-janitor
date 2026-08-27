@@ -27,7 +27,7 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
         node: [22]
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       # Pin third-party actions to a commit SHA — tags can move.
       # pnpm/action-setup reads the version from package.json "packageManager".
